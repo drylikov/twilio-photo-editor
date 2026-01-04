@@ -1,0 +1,20 @@
+
+{
+  "name": "twilio-pic-editor",
+  "version": "1.0.0",
+  "description": "AI Background Removal with Replicate and Twilio Whatsapp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "eludadev",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "ngrok": "^5.0.0-beta.2",
+    "replicate": "^0.12.3",
+    "twilio": "^4.13.0"
+  }
+}
